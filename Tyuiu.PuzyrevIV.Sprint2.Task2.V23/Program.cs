@@ -16,10 +16,10 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task2.V23
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                        *");
             Console.WriteLine("*******************************************");
 
-            Console.WriteLine("Введите значения переменой X:  ");
+            Console.WriteLine("Введите значения переменой X: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите значения переменой Y:  ");
+            Console.WriteLine("Введите значения переменой Y: ");
             int y = Convert.ToInt32(Console.ReadLine());
 
             DataService ds = new DataService();
