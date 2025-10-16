@@ -15,7 +15,7 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task4.V27.Test
             double x = 5;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 24,84;
+            double wait = 24.84;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
@@ -25,7 +25,7 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task4.V27.Test
             double x = 5;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 24,84;
+            double wait = 24.84;
             Assert.AreEqual(wait, res);
         }
     }
