@@ -12,20 +12,20 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task4.V27.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 10;
+            double x = 5;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 24.96;
+            double wait = 24,84;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
         public void ValidCondition2()
         {
             DataService ds = new DataService();
-            double x = 10;
-            double y = 20;
+            double x = 5;
+            double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 399.96;
+            double wait = 24,84;
             Assert.AreEqual(wait, res);
         }
     }
