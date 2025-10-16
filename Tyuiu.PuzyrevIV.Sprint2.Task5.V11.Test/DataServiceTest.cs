@@ -25,13 +25,13 @@ namespace Tyuiu.PuziIV.Sprint2.Task5.V11.Test
         }
 
         [TestMethod]
-        public void InvalidInput_ReturnsErrorMessage()
-        {
+         public void InvalidInput_ReturnsErrorMessage()
+         {
             DataService ds = new DataService();
 
             Assert.AreEqual("Некорректная дата", ds.FindDateOfNextDay(2023, 1, 32));  
             Assert.AreEqual("Некорректная дата", ds.FindDateOfNextDay(2023, 0, 15));   
             Assert.AreEqual("Некорректная дата", ds.FindDateOfNextDay(0, 6, 15));      
-        }
+         }
     }
 }

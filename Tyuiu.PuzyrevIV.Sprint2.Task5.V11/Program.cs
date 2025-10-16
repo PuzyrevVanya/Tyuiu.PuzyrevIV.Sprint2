@@ -22,7 +22,7 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task5.V11
             Console.WriteLine("Введите номер месяца: ");
             int g, m, n;
 
-            Console.WriteLine("Введите год: ");
+            Console.WriteLine("Введите год:  ");
             while (!int.TryParse(Console.ReadLine(), out g) || g <= 0)
             {
                 Console.WriteLine("Некорректный ввод. Введите год (целое положительное число): ");
