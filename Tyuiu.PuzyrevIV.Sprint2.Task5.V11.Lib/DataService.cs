@@ -34,7 +34,7 @@ namespace Tyuiu.PuzyrevIV.Sprint2.Task5.V11.Lib
                 }
             }
            
-            return $"{g}-{m:D2}-{n:D2 }";
+            return $"{g}-{m:D2}-{n:D2}";
         }
     }
 }
